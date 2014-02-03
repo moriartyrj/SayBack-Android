@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:focusableInTouchMode="true">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SayBack"
+            android:textSize="48dp"
+            android:gravity="center"
+            android:typeface="monospace"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PLAY WORD"
+            android:id="@+id/buttonPlay"
+            android:layout_marginTop="20dp"/>
+
+    <include layout="@layout/recorder"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GIVE UP"
+            android:id="@+id/response_buttonGiveUp"
+            android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
+
